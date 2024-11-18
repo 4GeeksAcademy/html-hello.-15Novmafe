@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Hello, world!</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><i class="fa-brands fa-instagram"></i>Instagram</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <a class="navbar-brand" href="#"></a>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+        </ul>
+        <form class="d-flex" role="search">
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Create a new post
+          </button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Create a new post</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  Caption:
+                  <div class="input-group mb-1">
+                    <texarea class="form-control" placeholder="Escribe el contenido de tu post"style="height: 100px"></texarea>
+                  </div>
+                  <button type="button" class="btn btn-outline-dark">
+                    <i class="fa-solid fa-camera"></i>
+                    
+                  </button>
+                  <button type="button" class="btn btn-outline-dark">
+                    
+                    <i class="fa-solid fa-location-dot"></i>
+                    
+                  </button>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Publish</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="btn-group">
+            <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              <i class="fa-solid fa-gear"></i>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li><button class="dropdown-item" type="button">Profile</button></li>
+              <li><button class="dropdown-item" type="button">Acesibility</button></li>
+              <li><button class="dropdown-item" type="button">Privacy and data</button></li>
+              <li><button class="dropdown-item" type="button">Log out</button></li>
+            </ul>
+          </div>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <ul class="nav nav-pills mb-3 nav justify-content-center" </ul>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
+        type="button" role="tab" aria-controls="pills-home" aria-selected="true"><i
+          class="fa-solid fa-grip-vertical"></i></button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
+        type="button" role="tab" aria-controls="pills-profile" aria-selected="false"><i
+          class="fa-solid fa-square"></i></button>
+    </li>
+
+  </ul>
+  <div class="tab-content" id="pills-tabContent">
+    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"
+      tabindex="0">
+      <div class="row g-2">
+        <div class="col-md-4">
+          <div class="ratio ratio-1x1">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYV3Ns1pWeL88odCohc_4zyFNwkjrnjzTuWw&s" />
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="ratio ratio-1x1">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZfMSGi42ruPL4uuDAfoe09Mq5LsPYi9DMcQ&s" />
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="ratio ratio-1x1">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUJ05BFGn-AGkoLllJF5DIMQqUoV9r06X-vg&s" />
+          </div>
+        </div>
+        <div class="row g-2">
+          <div class="col-md-4">
+            <div class="ratio ratio-1x1">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmCne3mvdHGwV71Ytx2E8ORAHsbHemDwA5WQ&s" />
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="ratio ratio-1x1">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA1LybQeWFnwWeFu6YccmKnK98TPKFFpNOKw&s" />
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="ratio ratio-1x1">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTICCO6aMCBoA_QfGv8xdxE-4Ro6fo1AsxRUg&s" />
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-4">
+          <div class="ratio ratio-1x1">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5M7WMo6htBJG9MmugAa--6MfQB6sGK8Oozg&s" />
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="ratio ratio-1x1">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP-b-FfJvRSI1yYGlUsuB2-VraCYaRBsIsUQ&s" />
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="ratio ratio-1x1">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYc7mQ7r-Am0HPwuEagKYdDe3mjDmdQFmcXQ&s" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+      <div class="card" style="width: 18rem; margin: auto;">
+
+        <div class="card-header text-center">
+          My crazy dog spark!
+        </div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYV3Ns1pWeL88odCohc_4zyFNwkjrnjzTuWw&s" />
+        <h5>204 likes</h5>
+        <p>This is an example of a very good photo that you can post on instagram</p>
+      </div>
+
+
+      <div class="card" style="width: 18rem; margin: auto;">
+
+        <div class="card-header text-center">
+          The greatness of Londre!
+        </div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZfMSGi42ruPL4uuDAfoe09Mq5LsPYi9DMcQ&s" />
+        <h5>26985 likes</h5>
+        <p>This is an example of a very good photo that you can post on instagram</p>
+      </div>
+      <div class="card" style="width: 18rem; margin: auto;">
+
+        <div class="card-header text-center">
+          Bridge of New york!
+        </div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUJ05BFGn-AGkoLllJF5DIMQqUoV9r06X-vg&s" />
+        <h5>204 likes</h5>
+        <p>This is an example of a very good photo that you can post on instagram</p>
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+  </div>
+
+  </div>
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
